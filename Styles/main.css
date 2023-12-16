@@ -1,0 +1,51 @@
+:root {
+	--bs-nav-pills-link-active-bg: red;
+}
+
+body {
+	background: linear-gradient(-45deg, #000000, #28313B, #000000, #130F40);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+desc {
+	font-style: italic;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: green;
+	--bs-nav-link-color: green;
+	--bs-link-hover-color: lightgreen;
+}
+
+.green {
+    color: #00ff00;
+}
+
+.diamondImg {
+	border-radius: 50% 2% 50% 2%;
+}
+
+.quote {
+	font-style: italic;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
